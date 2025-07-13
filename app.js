@@ -14,7 +14,7 @@ const flash = require('connect-flash')
 
 const app = express();
 
-const dbURI = 'mongodb+srv://nodeblogs:Bagali98802@ac-3vkmjxz.bfg0spp.mongodb.net/nodeblogs?retryWrites=true&w=majority&ssl=true';
+const dbURI = 'mongodb+srv://-3vkmjxz.bfg0spp.mongodb.net/nodeblogs?retryWrites=true&w=majority&ssl=true';
 
 mongoose.connect(dbURI)
 .then((result) => app.listen(3000))
